@@ -1,0 +1,205 @@
+@media (min-width:640px){
+    header{
+    text-align: center;
+
+    }
+  
+    header .image img{
+        display:block;
+        margin:auto
+    }
+    header .head .btns a.bg-none ,header .head .btns a.bg-red{
+        display:inline-block
+    }
+    .chefs .card{
+        width:100%
+    }
+    footer .foot1, footer .foot2,footer .foot3{
+        width:100%
+    }
+    footer .foot2 form .input {
+        width:75%
+    }
+    footer .foot2 form .btn{
+        width:25%
+    }
+}
+
+@media (min-width:768px){
+ 
+
+    header .head .btns a.bg-red{
+    border-top-left-radius:0;
+    }
+    .chefs .card{
+        width:49%
+    }
+    .gallery .main-card{
+        width:49%;
+     }
+    .contact-us .details .card{
+        width:50%;
+    }
+    footer .foot1,footer .foot3{
+        width:50%
+    }
+    footer .foot2{
+        width:100%;
+            order:3   
+    }
+  
+    footer .foot2 form .input {
+        width:80%
+    }
+    footer .foot2 form .btn{
+        width:20%
+    }
+}
+
+@media (min-width:1029px){
+  
+    nav .navbar-links .bars-icon i{
+        display:none;
+    }
+    nav .navbar-links ul{
+        display:flex;
+        align-items:center;
+        margin:auto;
+        width:fit-content  
+    }
+   
+    header{
+        padding:50px
+    }
+    .head{
+        text-align:left;  
+        }
+
+    header .container .head,header .container .image{
+        width:50%
+    }
+    header .container .head{
+        order:1;
+       
+    }
+    header .head .btns a.bg-red{
+        border-top-left-radius:0;
+        }
+        .chefs{
+            padding:50px
+        }
+    .chefs .card{
+        width:32%
+    }
+    nav{
+        padding-inline: 50px;
+    }
+    .gallery{
+        padding:50px;
+    }
+    .gallery .main-card{
+        width:32%;
+     }
+    .contact-us{
+        padding:50px
+    }
+    .contact-us form .name-input, .contact-us form .email-input{
+        width:50%;
+    }
+    
+    footer .foot1,footer .foot2, footer .foot3{
+        width:33.3%
+    }
+    footer .foot3{
+        order:3
+    }
+  
+    footer .foot2 form .input {
+        width:70%
+    }
+    footer .foot2 form .btn{
+        width:30%
+    }
+  
+}
+
+@media (max-width:1028px){
+    nav{
+        padding-block:15px
+    }
+    .navbar-mealify{
+        align-items:flex-start;
+        padding-top:10px
+    }
+    nav .navbar-links {
+        order:3;
+        /* flex-grow: .5; */
+}
+
+    nav .navbar-icons{
+        flex-grow: .9;
+    }
+
+    nav .navbar-icons i{
+        width:fit-content;
+        margin-left:auto;
+        display:block
+    }
+  
+    nav .navbar-links ul:target{
+    display:block
+}
+nav .navbar-links ul{
+    position: relative;
+    right: 100%;
+  
+}
+    .gallery .cards .pizza{
+        order: 1;
+    }
+    .gallery .cards .pizza-slices{
+        order: 3;
+    }
+    .gallery .cards .steak{
+        order: 5;     
+    }
+    .gallery .cards .omelette{
+        order: 4;       
+    }
+    .gallery .cards .Burger{
+        order: 2;    
+    }
+    .gallery .cards .Chicken{
+        order: 6;    
+    }
+    .gallery .cards .kebab{
+        order: 7;
+    }
+
+
+}
+
+
+@media (min-width:1280px){
+    header .head,header .image{
+        width:50%       
+    }
+    header .head .btns a.bg-red{
+        border-top-left-radius:0;
+        }
+    .chefs .card{
+        width:30%
+    }
+    footer .foot1,footer .foot3{
+        width:25%
+    }
+    footer .foot2{
+        width:50%
+    }
+    footer .foot2 form .input {
+        width:75%
+    }
+    footer .foot2 form .btn{
+        width:25%
+    }
+}
